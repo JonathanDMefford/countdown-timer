@@ -14,6 +14,7 @@ function countdownTimer() {
 
     if (remaining <= 0) {
         clearInterval(time);
+        document.getElementById('countdown').innerHTML = 'Happy Birthday!';
     }
 }
 countdownTimer();
